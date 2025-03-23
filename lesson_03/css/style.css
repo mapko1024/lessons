@@ -1,0 +1,91 @@
+@import url(reset.css);
+
+h1 {
+    color: blue;
+    font-size: 70px;
+}
+
+h2 {
+    color: brown;
+    font-size: 35px;
+}
+
+header>p {
+    color: red;
+}
+
+.header-list>ul {
+    color: blueviolet;
+}
+
+.container+p {
+    color: orange;
+}
+
+.container~a {
+    color: green;
+}
+
+[class*="tik"] {
+    color: pink;
+}
+
+.section-facts {
+    color: cadetblue;
+}
+
+.section-places {
+    color: yellow;
+}
+
+.section-places>ul>li>p>a {
+    color: rosybrown;
+}
+
+.section-tradition {
+    color: blueviolet;
+}
+
+.section-tradition>p {
+    color: yellow;
+}
+
+.start {
+    /* color: orange; */
+}
+
+/* Додаткове завдання */
+
+.home-work>ul>li {
+    color: red;
+}
+
+.home-work>ul>li>ul>li {
+    color: blue;
+}
+
+.home-work>ul>li>ul>li>span {
+    color: #a0f0fc;
+}
+
+.home-work>ul>li>ul>li+li {
+    color: orange;
+}
+
+.home-work>ul>li+li {
+    color: green;
+}
+
+.home-work ol {
+    color: #4597f7;
+}
+
+.home-work ol li+li {
+    color: #5d5d5d;
+}
+
+/* ------- */
+
+.footer-list {
+    color: olive;
+}
