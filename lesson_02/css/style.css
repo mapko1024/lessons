@@ -1,0 +1,62 @@
+@import url(reset.css);
+
+h2 {
+    /* font-size: 36px;
+    color: brown; */
+}
+
+.title {
+    /* font-size: 70px; */
+}
+
+#section-polish-body {
+    /* color: blue; */
+}
+
+[class*="tio"] {
+    /* color: yellow; */
+}
+
+[title*="га"] {
+    /* font-size: 50px; */
+}
+
+div.text {
+    /* color: blanchedalmond; */
+}
+
+.red-text,
+.text,
+ul {
+    /* font-size: 35px; */
+}
+
+header h1 {
+    font-size: 40px;
+    color: blueviolet;
+    text-align: center;
+    letter-spacing: -6px;
+}
+
+header a {
+    /* color: yellow; */
+}
+
+header li {
+    /* color: blue; */
+}
+
+.header>div>ul>li {
+    /* color: beige;
+    font-size: 45px; */
+}
+
+h1~div {
+    /* color: beige;
+    font-size: 45px; */
+}
+
+h1+div {
+    color: beige;
+    font-size: 45px;
+}
