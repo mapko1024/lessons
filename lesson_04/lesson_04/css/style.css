@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url(fonts.css);
+@import url(reset.css);
+body {
+  font-family: Tektur;
+  font-size: 18px;
+}
+.header {
+  color: chocolate;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-weight: 700;
+}
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 55px;
+  color: brown;
+  text-shadow: 2px 2px 3px #000;
+}
+h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 32px;
+  color: blueviolet;
+  text-decoration: underline
+}
+h3 {
+  font-family: Poppins;
+  font-size: 32px;
+  color: gray;
+}
+.section-history > div > p {
+  letter-spacing: 1.4px;
+  color: brown;
+  font-size: 22px;
+}
+.section-receiver {
+  font-family: Chenla;
+  line-height: 1.4;
+  font-style: italic;
+}
+.section-receiver span {
+  text-decoration: line-through;
+  text-decoration-color: chartreuse;
+  text-decoration-thickness: 6px
+}
+.section-receiver > div > p {
+  color: blue;
+  word-spacing: 3px;
+}
+.section-telephony > div > p {
+  text-decoration: underline;
+  font-size: 10px;
+  font-weight: 700;
+}
+.section-century h2 {
+  color: yellowgreen;
+}
+.section-century a {
+  color: yellowgreen;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.section-century span {
+  letter-spacing: 10px;
+  font-weight: 700;
+}
+.section-ecobazar {
+  font-family: Poppins;
+  color: #808080;
+  font-size: 18px;
+  font-weight: 400;
+}
+.section-ecobazar > p {
+  font-size: 20px;
+  color: #1A1A1A;
+  font-weight: 500;
+}
+.footer-list + a {
+  font-size: 22px;
+  font-weight: 500;
+  color: red;
+}
