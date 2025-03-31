@@ -1,0 +1,140 @@
+@import url(fonts.css);
+body {
+  font-family: "OpenSans";
+}
+.header {
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 55px;
+  font-weight: 700;
+  color: brown;
+  text-align: center;
+}
+.block {
+  margin: 0 auto;
+  width: 400px;
+  padding: 10px;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.block p {
+  margin-bottom: 10px;
+}
+.image {
+  margin: 0 auto;
+  width: 400px;
+  margin-bottom: 30px;
+}
+.block-2 {
+  margin: 0 auto;
+  color: chocolate;
+  width: 400px;
+  margin-bottom: 30px;
+}
+.home-work {
+  font-family: "Circular Std", sans-serif;
+  margin-bottom: 30px;
+}
+.section-advantages {
+  width: 1050px;
+  background-color: #231F8B;
+  margin: 0 auto;
+}
+.advantages-content {
+  padding-top: 112px;
+  margin-bottom: 70px;
+}
+.advantages-subtitle {
+  color: #5A54F2;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin-bottom: 10px;
+}
+.advantages-title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.advantages-text {
+  width: 765px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.advantages-items {
+  margin-left: -5px;
+  margin-right: -5px;
+  font-size: 0;
+}
+.advantages-item-top {
+  display: inline-block;
+  width: 230px;
+  vertical-align: top;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+.advantages-item-top .color {
+  width: 230px;
+  background: #5A54F2;
+  vertical-align: top;
+}
+.color .white {
+  color: #fff;
+}
+.color .item-decoration {
+  background-color: white;
+}
+.advantages-item {
+  display: inline-block;
+  width: 230px;
+  padding-top: 48px;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-bottom: 112px;
+}
+.item-content img,
+.item-content h3,
+.item-decoration {
+  margin-bottom: 20px;
+}
+.item-content {
+  padding: 35px 45px;
+  background-color: #fff;
+}
+.item-content h3 {
+  color: #252B42;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+.item-decoration {
+  max-width: 50px;
+  height: 2px;
+  background-color: #E74040;
+}
+.item-content p {
+  font-family: "Montserrat";
+  color: #737373;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+.footer-text {
+  font-size: 25px;
+  font-weight: 700;
+  color: yellow;
+  text-decoration: underline;
+  letter-spacing: 3.5px;
+  text-decoration-color: #252B42;
+  text-align: right;
+}
