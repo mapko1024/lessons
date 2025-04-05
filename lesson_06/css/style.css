@@ -1,0 +1,192 @@
+body {}
+.wrapper {
+  overflow: clip;
+  min-height: 100%;
+}
+.header {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(190, 132, 132, 1) 0%, rgba(0, 212, 255, 1) 100%);
+  margin-bottom: 50px;
+  padding-top: 15px;
+}
+.header-section {}
+.header-container {
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+.header-list {}
+.header-item {
+  display: inline-block;
+}
+.header-title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  border-right: 4px dotted rgb(67, 13, 13);
+  border-radius: 40px;
+  border-color: rgb(67, 13, 13);
+  padding: 15px 20px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.page {
+  margin-bottom: 50px;
+}
+.ecobazar-section {
+  font-family: Poppins;
+  color: #808080;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+.ecobazar-container {
+  max-width: 678px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.ecobazar-text {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.ecobazar-items {
+  margin-bottom: 20px;
+}
+.ecobazar-item {
+  padding-left: 30px;
+  line-height: 1.4;
+  margin-bottom: 14px;
+  background-image: url("../img/check.svg");
+  background-repeat: no-repeat;
+}
+
+/* Hydra */
+.hydra-section {
+  background: #302C42;
+  font-family: "Montserrat";
+  color: #FFF;
+}
+.hydra-container {
+  max-width: 1302px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.hydra-contacts {
+  padding-top: 50px;
+}
+.contacts-items {
+  padding: 25px 25px;
+  border-radius: 90px;
+  background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+.contacts-item {
+  max-width: 400px;
+  width: 100%;
+  min-height: 117px;
+  padding-left: 15px;
+  display: inline-block;
+}
+.contacts-title {
+  text-align: start;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.contacts-text {
+  font-size: 14px;
+  line-height: 1.2;
+}
+.contacts-location,
+.contacts-telephone,
+.contacts-masage {
+  padding-left: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+.contacts-location {
+  background: url("../img/icon-location.svg") center left / 70px no-repeat;
+  border-right: 1px solid rgba(192, 183, 232, 0.33);
+}
+.contacts-telephone {
+  background: url("../img/icon-telephone.svg") center left / 59px no-repeat;
+  border-right: 1px solid rgba(192, 183, 232, 0.33);
+}
+.contacts-masage {
+  background: url("../img/icon-mail.svg") center left / 65px no-repeat;
+}
+.hydra-about {
+  display: inline-block;
+  background: url('../img/vector7.svg') no-repeat 0 65px,
+    url("../img/vector8.svg") no-repeat -124px 286px;
+  padding-bottom: 50px;
+}
+.about-image {
+  padding-top: 50px;
+  /* border-radius: 240px 100px; */
+  /* aspect-ratio: 524 / 557; */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 45.8% 17.95% 45.8% 17.95% / 43.08% 19.08% 43.08% 19.08%
+    /* 
+  взято з НОТАТКИ Як вирахувати border-radius у %
+  image 
+  шир 524
+  висота 557
+  radius 240/100
+
+  45.8% 17.95%
+  43.08% 19.08%
+  */
+}
+.about-content {
+  display: inline-block;
+  max-width: 630px;
+  padding-left: 108px;
+  vertical-align: middle;
+}
+.about-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+.about-subtitle {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 42px;
+
+}
+.about-text {
+  font-size: 16px;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+.about-button {
+  padding: 18px 40px;
+  color: #343045;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+.footer {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(190, 132, 132, 1) 0%, rgba(0, 212, 255, 1) 100%);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.title-up {
+  padding: 15px;
+  font-size: 24px;
+  color: brown;
+  font-weight: 700;
+  border: 3px double #3b3b4e;
+  border-radius: 50%;
+  margin-left: 20px;
+}
