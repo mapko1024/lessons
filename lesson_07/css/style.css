@@ -1,0 +1,268 @@
+body {
+  font-family: Inter;
+  font-size: 15px;
+  color: white;
+}
+.wrapper {
+  overflow: clip;
+  min-height: 100%;
+}
+.header,
+.section-faculty,
+.section-meet,
+.section-game {
+  margin-bottom: 55px;
+}
+.header-section {
+  background: #412672;
+}
+.header-container {
+  max-width: 560px;
+  padding-inline: 15px;
+  margin: 0 auto;
+}
+.header-tittle {
+  padding: 10px;
+  font-size: 40px;
+  color: #f09494;
+}
+.page {}
+.section-meet {
+  background: #412672;
+  overflow: hidden;
+}
+.meet-container {
+  max-width: 1232px;
+  padding-inline: 15px;
+  margin: 0 auto;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.meet-title {
+  font-size: 38px;
+  line-height: 1.2;
+  margin-bottom: 31px;
+}
+.meet-cards {
+  font-size: 0;
+  overflow: hidden;
+  width: 100%;
+}
+.meet-item {
+  display: inline-block;
+  padding: 20px;
+  background: white;
+  max-width: 387px;
+  min-height: 476px;
+  vertical-align: top;
+}
+.meet-item:hover {
+  background-color: #FFBE48;
+}
+.meet-item:not(:last-child) {
+  margin-right: 20px;
+}
+.meet-item *:not(:last-child) {
+  margin-bottom: 16px;
+}
+.meet-avatar {
+  vertical-align: top;
+  height: 266px;
+}
+.meet-avatar:hover {
+  opacity: 0.8;
+  padding-top: 3px;
+}
+.meet-name {
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.meet-name:hover {
+  text-decoration: underline;
+  font-size: 23px;
+  color: rgb(46, 31, 31);
+}
+.meet-name:active {
+  color: rgb(143, 109, 109);
+}
+.meet-info {
+  color: #4F4F4F;
+  line-height: 1.2;
+  min-height: 76px;
+  font-size: 15px;
+}
+.meet-link {
+  color: #FE3F3F;
+  line-height: 1.3;
+  font-size: 15px;
+  vertical-align: bottom;
+}
+.meet-link:hover {
+  color: black;
+}
+
+.faculty-container {
+  margin: 0 auto;
+  max-width: 1232px;
+  padding-inline: 15px;
+}
+.faculty-items {
+  width: 50%;
+}
+.faculty-items *:not(:last-child) {
+  margin-bottom: 20px;
+}
+.faculty-title {
+  color: #412672;
+  font-size: 34px;
+  line-height: 1.2;
+}
+.faculty-about {
+  color: #412672;
+  font-size: 22px;
+  line-height: 1.2;
+}
+.faculty-text {
+  color: #4F4F4F;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.faculty-text > li {
+  padding-left: 40px;
+}
+.faculty-text > li:not(:last-child) {
+  margin-bottom: 21px;
+}
+.faculty-text > li::before {
+  content: url(../img/icon.svg);
+  width: 29px;
+  height: 29px;
+  vertical-align: middle;
+  margin-left: -44px;
+  margin-right: 15px;
+}
+.section-game {
+  background: #412672;
+}
+.game-container {
+  margin: 0 auto;
+  padding-inline: 15px;
+  max-width: 700px;
+  min-height: 700px;
+  background: #1d0843
+}
+.game-title {
+  font-size: 24px;
+  padding: 5px;
+  color: gold;
+  text-align: right;
+}
+.game-title span {
+  color: black;
+  font-weight: 700;
+}
+.game-levels {
+  display: inline-block;
+  vertical-align: top;
+  visibility: hidden;
+  width: 100%;
+}
+.none {
+  display: inline-block;
+  visibility: hidden;
+}
+.level-1 {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+  background-color: yellow;
+  display: inline-block;
+  width: 30px;
+  height: 230px;
+  margin-left: 593px;
+  margin-top: 1px;
+}
+.arrow-bottom {
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 45px solid black;
+  margin-top: 158px;
+  margin-left: 6px;
+}
+.level-2 {
+  background-color: yellow;
+  display: inline-block;
+  width: 20px;
+  height: 230px;
+  margin-left: 598px;
+}
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 18px solid green;
+  border-bottom: 10px solid transparent;
+  margin-top: 231px;
+  margin-left: 1px;
+}
+.level-3 {
+  background-color: yellow;
+  display: inline-block;
+  width: 200px;
+  height: 23px;
+  margin-left: 418px;
+  margin-top: -3px;
+}
+.level-4 {
+  background-color: yellow;
+  display: inline-block;
+  width: 15px;
+  height: 140px;
+  margin-left: 403px;
+  margin-top: -26px;
+}
+.level-5 {
+  background-color: yellow;
+  display: inline-block;
+  width: 275px;
+  height: 23px;
+  margin-left: 143px;
+  margin-top: -3px;
+}
+.level-6 {
+  background-color: yellow;
+  display: inline-block;
+  width: 12px;
+  height: 271px;
+  margin-left: -280px;
+  margin-top: -285px;
+}
+.level-7 {
+  text-align: center;
+  padding: 5px;
+  width: 60px;
+  height: 40px;
+  margin-left: 120px;
+  margin-top: -310px;
+  background-color: wheat;
+  color: black;
+}
+.none:hover,
+.none:hover + * {
+  visibility: visible;
+}
+.footer {
+  max-width: 100px;
+  margin: 0 auto;
+  font-size: 30px;
+  color: yellowgreen;
+}
+.title-up {
+  color: black;
+  padding: 5px;
+}
