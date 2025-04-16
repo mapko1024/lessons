@@ -9,7 +9,6 @@ body {
 }
 .header,
 .section-faculty,
-.section-meet,
 .section-game {
   margin-bottom: 55px;
 }
@@ -52,9 +51,10 @@ body {
   display: inline-block;
   padding: 20px;
   background: white;
-  max-width: 387px;
+  max-width: 347px;
   min-height: 476px;
   vertical-align: top;
+  margin-bottom: 20px;
 }
 .meet-item:hover {
   background-color: #FFBE48;
@@ -68,6 +68,7 @@ body {
 .meet-avatar {
   vertical-align: top;
   height: 266px;
+  overflow: hidden;
 }
 .meet-avatar:hover {
   opacity: 0.8;
@@ -97,12 +98,13 @@ body {
   color: #FE3F3F;
   line-height: 1.3;
   font-size: 15px;
-  vertical-align: bottom;
 }
 .meet-link:hover {
   color: black;
 }
-
+.section-faculty {
+  padding-top: 53px;
+}
 .faculty-container {
   margin: 0 auto;
   max-width: 1232px;
@@ -166,12 +168,15 @@ body {
 .game-levels {
   display: inline-block;
   vertical-align: top;
-  visibility: hidden;
   width: 100%;
+  font-size: 0;
 }
-.none {
-  display: inline-block;
+[class*="level-"]:not(.level-1, .level-7) {
   visibility: hidden;
+}
+[class*="level-"]:hover,
+[class*="level-"]:hover + * {
+  visibility: visible;
 }
 .level-1 {
   text-align: center;
@@ -190,7 +195,7 @@ body {
   height: 0px;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 45px solid black;
+  border-top: 25px solid black;
   margin-top: 158px;
   margin-left: 6px;
 }
@@ -207,7 +212,7 @@ body {
   border-top: 10px solid transparent;
   border-right: 18px solid green;
   border-bottom: 10px solid transparent;
-  margin-top: 231px;
+  margin-top: 210px;
   margin-left: 1px;
 }
 .level-3 {
@@ -217,14 +222,18 @@ body {
   height: 23px;
   margin-left: 418px;
   margin-top: -3px;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
 }
 .level-4 {
   background-color: yellow;
   display: inline-block;
   width: 15px;
-  height: 140px;
+  height: 180px;
   margin-left: 403px;
-  margin-top: -26px;
+  margin-top: -23px;
 }
 .level-5 {
   background-color: yellow;
@@ -251,10 +260,7 @@ body {
   margin-top: -310px;
   background-color: wheat;
   color: black;
-}
-.none:hover,
-.none:hover + * {
-  visibility: visible;
+  font-size: 16px;
 }
 .footer {
   max-width: 100px;
