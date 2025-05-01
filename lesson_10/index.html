@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>BEM</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container"> Ecobazar </div>
+    </header>
+    <main class="page">
+      <div class="featured-section featured">
+        <div class="featured__container">
+          <div class="featured__title section-title">
+            <h2>Featured Products</h2>
+            <a class="section-title__view" href="#">View All <img src="img/arrow-right.svg" alt="vector arrow pointing right">
+            </a>
+          </div>
+          <div class="featured__cards">
+            <div class="featured__cards-items item-card">
+              <a class="item-card__sale" href="#">Sale <span>50%</span></a>
+              <img class="item-card__image" src="img/green-apple.webp" alt="green apples on a white background">
+              <a class="item-card__wishlist" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M9.9996 17.5451C-6.66672 8.33331 4.99993 -1.66668 9.9996 4.6567C14.9999 -1.66669 26.6666 8.33331 9.9996 17.5451Z" stroke="#1A1A1A" stroke-width="1.5" />
+                </svg>
+              </a>
+              <a class="item-card__view" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M10 3.54103C3.75 3.54103 1.25 10.0001 1.25 10.0001C1.25 10.0001 3.75 16.4577 10 16.4577C16.25 16.4577 18.75 10.0001 18.75 10.0001C18.75 10.0001 16.25 3.54103 10 3.54103V3.54103Z" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M10 13.125C10.8288 13.125 11.6237 12.7958 12.2097 12.2097C12.7958 11.6237 13.125 10.8288 13.125 10C13.125 9.1712 12.7958 8.37634 12.2097 7.79029C11.6237 7.20424 10.8288 6.875 10 6.875C9.1712 6.875 8.37634 7.20424 7.79029 7.79029C7.20424 8.37634 6.875 9.1712 6.875 10C6.875 10.8288 7.20424 11.6237 7.79029 12.2097C8.37634 12.7958 9.1712 13.125 10 13.125V13.125Z" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+              <div class="item-card__list list-item">
+                <a class="list-item__link-title" href="#">
+                  <h3 class="list-item__title">Green Apple</h3>
+                </a>
+                <p class="list-item__price">$14.99 <span>$20.99</span></p>
+                <div class="list-item__reiting">
+                  <img class="list-item__rating-star" src="img/orange-star.svg" alt="stars rating">
+                  <img class="list-item__rating-star" src="img/orange-star.svg" alt="stars rating">
+                  <img class="list-item__rating-star" src="img/orange-star.svg" alt="stars rating">
+                  <img class="list-item__rating-star" src="img/orange-star.svg" alt="stars rating">
+                  <img class="list-item__rating-star" src="img/transparent-star.svg" alt="stars rating">
+                </div>
+                <a class="list-item__link-basket" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                    <path d="M6.66667 8.83333H4.16667L2.5 18H17.5L15.8333 8.83333H13.3333M6.66667 8.83333V6.33333C6.66667 4.49239 8.15905 3 10 3V3C11.8409 3 13.3333 4.49238 13.3333 6.33333V8.83333M6.66667 8.83333H13.3333M6.66667 8.83333V11.3333M13.3333 8.83333V11.3333" stroke="#1A1A1A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="featured__cards-items item-card">
+              <img class="item-card__image" src="img/chanise-cabbage.webp" alt="chanise-cabbage on a white background">
+              <a class="item-card__wishlist" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M9.9996 17.5451C-6.66672 8.33331 4.99993 -1.66668 9.9996 4.6567C14.9999 -1.66669 26.6666 8.33331 9.9996 17.5451Z" stroke="#1A1A1A" stroke-width="1.5" />
+                </svg>
+              </a>
+              <a class="item-card__view" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M10 3.54103C3.75 3.54103 1.25 10.0001 1.25 10.0001C1.25 10.0001 3.75 16.4577 10 16.4577C16.25 16.4577 18.75 10.0001 18.75 10.0001C18.75 10.0001 16.25 3.54103 10 3.54103V3.54103Z" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M10 13.125C10.8288 13.125 11.6237 12.7958 12.2097 12.2097C12.7958 11.6237 13.125 10.8288 13.125 10C13.125 9.1712 12.7958 8.37634 12.2097 7.79029C11.6237 7.20424 10.8288 6.875 10 6.875C9.1712 6.875 8.37634 7.20424 7.79029 7.79029C7.20424 8.37634 6.875 9.1712 6.875 10C6.875 10.8288 7.20424 11.6237 7.79029 12.2097C8.37634 12.7958 9.1712 13.125 10 13.125V13.125Z" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+              <div class="item-card__list list-item">
+                <a class="list-item__link-title" href="#">
+                  <h3 class="list-item__title">Chanise Cabbage</h3>
+                </a>
+                <p class="list-item__price">$14.99</p>
+                <div class="list-item__reiting">
+                  <img class="list-item__rating-star" src="img/orange-star.svg" alt="stars rating">
+                  <img class="list-item__rating-star" src="img/orange-star.svg" alt="stars rating">
+                  <img class="list-item__rating-star" src="img/orange-star.svg" alt="stars rating">
+                  <img class="list-item__rating-star" src="img/orange-star.svg" alt="stars rating">
+                  <img class="list-item__rating-star" src="img/transparent-star.svg" alt="stars rating">
+                </div>
+                <a class="list-item__link-basket" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                    <path d="M6.66667 8.83333H4.16667L2.5 18H17.5L15.8333 8.83333H13.3333M6.66667 8.83333V6.33333C6.66667 4.49239 8.15905 3 10 3V3C11.8409 3 13.3333 4.49238 13.3333 6.33333V8.83333M6.66667 8.83333H13.3333M6.66667 8.83333V11.3333M13.3333 8.83333V11.3333" stroke="#1A1A1A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="featured__cards-items item-card">
+              <img class="item-card__image" src="img/green-capsicum.webp" alt="green capsicum on a white background">
+              <a class="item-card__wishlist" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M9.9996 17.5451C-6.66672 8.33331 4.99993 -1.66668 9.9996 4.6567C14.9999 -1.66669 26.6666 8.33331 9.9996 17.5451Z" stroke="#1A1A1A" stroke-width="1.5" />
+                </svg>
+              </a>
+              <a class="item-card__view" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M10 3.54103C3.75 3.54103 1.25 10.0001 1.25 10.0001C1.25 10.0001 3.75 16.4577 10 16.4577C16.25 16.4577 18.75 10.0001 18.75 10.0001C18.75 10.0001 16.25 3.54103 10 3.54103V3.54103Z" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M10 13.125C10.8288 13.125 11.6237 12.7958 12.2097 12.2097C12.7958 11.6237 13.125 10.8288 13.125 10C13.125 9.1712 12.7958 8.37634 12.2097 7.79029C11.6237 7.20424 10.8288 6.875 10 6.875C9.1712 6.875 8.37634 7.20424 7.79029 7.79029C7.20424 8.37634 6.875 9.1712 6.875 10C6.875 10.8288 7.20424 11.6237 7.79029 12.2097C8.37634 12.7958 9.1712 13.125 10 13.125V13.125Z" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+              <div class="item-card__list list-item">
+                <a class="list-item__link-title" href="#">
+                  <h3 class="list-item__title">Green Capsicum</h3>
+                </a>
+                <p class="list-item__price">$14.99</p>
+                <div class="list-item__reiting">
+                  <img class="list-item__rating-star" src="img/orange-star.svg" alt="stars rating">
+                  <img class="list-item__rating-star" src="img/orange-star.svg" alt="stars rating">
+                  <img class="list-item__rating-star" src="img/orange-star.svg" alt="stars rating">
+                  <img class="list-item__rating-star" src="img/orange-star.svg" alt="stars rating">
+                  <img class="list-item__rating-star" src="img/transparent-star.svg" alt="stars rating">
+                </div>
+                <a class="list-item__link-basket" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                    <path d="M6.66667 8.83333H4.16667L2.5 18H17.5L15.8333 8.83333H13.3333M6.66667 8.83333V6.33333C6.66667 4.49239 8.15905 3 10 3V3C11.8409 3 13.3333 4.49238 13.3333 6.33333V8.83333M6.66667 8.83333H13.3333M6.66667 8.83333V11.3333M13.3333 8.83333V11.3333" stroke="#1A1A1A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="featured__cards-items item-card">
+              <img class="item-card__image" src="img/ladies-finger.webp" alt="ladies finger on a white background">
+              <a class="item-card__wishlist" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M9.9996 17.5451C-6.66672 8.33331 4.99993 -1.66668 9.9996 4.6567C14.9999 -1.66669 26.6666 8.33331 9.9996 17.5451Z" stroke="#1A1A1A" stroke-width="1.5" />
+                </svg>
+              </a>
+              <a class="item-card__view" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M10 3.54103C3.75 3.54103 1.25 10.0001 1.25 10.0001C1.25 10.0001 3.75 16.4577 10 16.4577C16.25 16.4577 18.75 10.0001 18.75 10.0001C18.75 10.0001 16.25 3.54103 10 3.54103V3.54103Z" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M10 13.125C10.8288 13.125 11.6237 12.7958 12.2097 12.2097C12.7958 11.6237 13.125 10.8288 13.125 10C13.125 9.1712 12.7958 8.37634 12.2097 7.79029C11.6237 7.20424 10.8288 6.875 10 6.875C9.1712 6.875 8.37634 7.20424 7.79029 7.79029C7.20424 8.37634 6.875 9.1712 6.875 10C6.875 10.8288 7.20424 11.6237 7.79029 12.2097C8.37634 12.7958 9.1712 13.125 10 13.125V13.125Z" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+              <div class="item-card__list list-item">
+                <a class="list-item__link-title" href="#">
+                  <h3 class="list-item__title">Ladies Finger</h3>
+                </a>
+                <p class="list-item__price">$14.99</p>
+                <div class="list-item__reiting">
+                  <img class="list-item__rating-star" src="img/orange-star.svg" alt="stars rating">
+                  <img class="list-item__rating-star" src="img/orange-star.svg" alt="stars rating">
+                  <img class="list-item__rating-star" src="img/orange-star.svg" alt="stars rating">
+                  <img class="list-item__rating-star" src="img/orange-star.svg" alt="stars rating">
+                  <img class="list-item__rating-star" src="img/transparent-star.svg" alt="stars rating">
+                </div>
+                <a class="list-item__link-basket" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                    <path d="M6.66667 8.83333H4.16667L2.5 18H17.5L15.8333 8.83333H13.3333M6.66667 8.83333V6.33333C6.66667 4.49239 8.15905 3 10 3V3C11.8409 3 13.3333 4.49238 13.3333 6.33333V8.83333M6.66667 8.83333H13.3333M6.66667 8.83333V11.3333M13.3333 8.83333V11.3333" stroke="#1A1A1A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="featured__cards cards-featured">
+            <img class="cards-featured__image" src="img/chanise.webp" alt="Chanise Cabbage on a white background">
+            <a class="cards-featured__link-title" href="#">
+              <h3 class="cards-featured__title">Chanise Cabbage</h3>
+            </a>
+            <div class="cards-featured__reiting">
+              <img class="cards-featured__rating-star" src="img/rating-star.svg" alt="stars rating">
+            </div>
+            <p class="cards-featured__price">$14.99</p>
+            <a class="cards-featured__link-basket" href="#">
+              <img src="img/basket.svg" alt="basket icon">
+            </a>
+          </div>
+          <div class="featured__cards cards-featured">
+            <img class="cards-featured__image" src="img/capsicum.webp" alt="Green Capsicum on a white background">
+            <a class="cards-featured__link-title" href="#">
+              <h3 class="cards-featured__title">Green Capsicum</h3>
+            </a>
+            <div class="cards-featured__reiting">
+              <img class="cards-featured__rating-star" src="img/rating-star.svg" alt="stars rating">
+            </div>
+            <p class="cards-featured__price">$14.99 <span>$20.99</span></p>
+            <a class="cards-featured__link-basket" href="#">
+              <img src="img/basket.svg" alt="basket icon">
+            </a>
+          </div>
+          <div class="featured__cards cards-featured">
+            <img class="cards-featured__image" src="img/finger.webp" alt="Ladies Finger on a white background">
+            <a class="cards-featured__link-title" href="#">
+              <h3 class="cards-featured__title">Ladies Finger</h3>
+            </a>
+            <div class="cards-featured__reiting">
+              <img class="cards-featured__rating-star" src="img/rating-star.svg" alt="stars rating">
+            </div>
+            <p class="cards-featured__price">$14.99 <span>$20.99</span></p>
+            <a class="cards-featured__link-basket" href="#">
+              <img src="img/basket.svg" alt="basket icon">
+            </a>
+          </div> -->
+        </div>
+      </div>
+      <div class="business-section business">
+        <div class="business__container">
+          <div class="business__body">
+            <div class="business__features-top top-features top-features--margin">
+              <div class="top-features__photo">
+                <img src="img/audit-management.webp" alt="Two young women seated on the floor, using a laptop together, immersed in their project or study session.">
+              </div>
+              <div class="top-features__content text-content">
+                <h2 class="text-content__heading">The Industry's Top-Rated GRC and Audit Management Technology</h2>
+                <p class="text-content__description"> Built to provide the efficiency, connectedness, and visibility you need to stay ahead of today’s dynamic risk environment. Built to provide the efficiency, connectedness, and visibility you need to stay ahead of today’s dynamic risk environment. </p>
+                <a href="#" class="text-content__button">Read the Documentation</a>
+              </div>
+            </div>
+            <div class="business__features-buttom buttom-features">
+              <div class="buttom-features__content text-content text-content--left">
+                <h2 class="text-content__heading">Explore the Modern Connected Risk Platform </h2>
+                <p class="text-content__description"> Built to provide the efficiency, connectedness, and visibility you need to stay ahead of today’s dynamic risk environment. Built to provide the efficiency, connectedness, and visibility you need to stay ahead of today’s dynamic risk environment. </p>
+                <a href="#" class="text-content__button">Read the Documentation</a>
+              </div>
+              <div class="buttom-features__photo">
+                <img src="img/explore.webp" alt="Several individuals seated at a table, focused on their laptops while engaging in a collaborative work session.">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container"> Foot </div>
+    </footer>
+  </div>
+</body>
+
+</html>
