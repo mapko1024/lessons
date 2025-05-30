@@ -63,14 +63,14 @@
                     <select class="body-form__form-select" name="form[]">
                       <option selected="" disabled="" hidden="" value="">Select</option>
                       <option value="1">Kyiv</option>
-                      <option selected value="2">Doneck</option>
+                      <option value="2">Doneck</option>
                       <option value="3">Lviv</option>
                       <option value="4">Kharkiv</option>
                       <option value="5">Lutsk</option>
                     </select>
                   </div>
                   <div class="body-form__info">
-                    <label class="body-form__form-label">Zip Code</span></label>
+                    <label class="body-form__form-label">Zip Code</label>
                     <input class="body-form__form-input" type="text" name="form[]" placeholder="Zip Code" required>
                   </div>
                 </div>
@@ -95,7 +95,7 @@
                 <div class="body-form__line body-form__line--long">
                   <div class="body-form__info">
                     <label class="body-form__form-label">Order Notes <span>(Optional)</span></label>
-                    <textarea class="body-form__form-textarea" placeholder="Notes about your order, e.g. special notes for delivery" name="form[]" id=""></textarea>
+                    <textarea class="body-form__form-textarea" placeholder="Notes about your order, e.g. special notes for delivery" name="form[]"></textarea>
                   </div>
                 </div>
               </div>
@@ -109,7 +109,7 @@
                           <img src="img/two-green-peppers.webp" alt="Two green peppers resting on a clean white background, showcasing their vibrant color and smooth texture">
                         </a>
                         <a href="#" class="order__link">Green Capsicum</a>
-                        <label for="quantity"> x <input value="1" type="number" id="quantity" name="form[]" min="1" max="25">
+                        <label> x <input value="1" type="number" name="form[]" min="1" max="25">
                         </label>
                       </div>
                       <span>$70.00</span>
@@ -120,7 +120,7 @@
                           <img src="img/two-red-peppers.webp" alt="Two red bell peppers resting on a clean white background">
                         </a>
                         <a href="#" class="order__link">Red Capsicum</a>
-                        <label for="quantity"> x <input value="1" type="number" id="quantity" name="form[]" min="1" max="25">
+                        <label> x <input value="1" type="number" name="form[]" min="1" max="25">
                         </label>
                       </div>
                       <span>$14.00</span>
@@ -145,8 +145,8 @@
                   <h2 class="order__title">Payment Method</h2>
                   <div class="order__payment-rario radio-payment">
                     <div class="radio-payment__item">
-                      <input id="on delivery" class="radio-payment__item-input" checked name="form[]" type="radio" value="1">
-                      <label class="radio-payment__item-label" for="on delivery">Cash on Delivery</label>
+                      <input id="on-delivery" class="radio-payment__item-input" checked name="form[]" type="radio" value="1">
+                      <label class="radio-payment__item-label" for="on-delivery">Cash on Delivery</label>
                     </div>
                     <div class="radio-payment__item">
                       <input id="paypal" class="radio-payment__item-input" checked name="form[]" type="radio" value="2">
