@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Form</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <h1 class="header__title">Modul FORM</h1>
+      </div>
+    </header>
+    <main class="page">
+      <section class="ecobazar-section ecobazar">
+        <div class="ecobazar__container">
+          <form class="ecobazar__form" action="#" method="post" enctype="multipart/form-data">
+            <div class="ecobazar__form-body body-form">
+              <div class="body-form__billing">
+                <h2 class="body-form__title">Billing Information</h2>
+                <div class="body-form__line body-form__line--short">
+                  <div class="body-form__info">
+                    <label class="body-form__form-label">First name</label>
+                    <input class="body-form__form-input" type="text" name="form[]" placeholder="Your first name" required>
+                  </div>
+                  <div class="body-form__info">
+                    <label class="body-form__form-label">Last name</label>
+                    <input class="body-form__form-input" type="text" name="form[]" placeholder="Your last name" required>
+                  </div>
+                  <div class="body-form__info">
+                    <label class="body-form__form-label">Company Name <span>(optional)</span></label>
+                    <input class="body-form__form-input" type="text" name="form[]" placeholder="Company name">
+                  </div>
+                </div>
+                <div class="body-form__line body-form__line--long">
+                  <div class="body-form__info">
+                    <label class="body-form__form-label">Street Address</label>
+                    <input class="body-form__form-input" type="text" name="form[]" placeholder="Email" required>
+                  </div>
+                </div>
+                <div class="body-form__line  body-form__line--short">
+                  <div class="body-form__info">
+                    <label class="body-form__form-label">Country / Region</label>
+                    <select class="body-form__form-select" name="form[]">
+                      <option selected="" disabled="" hidden="" value="">Select</option>
+                      <option value="1">Ukraine (UA)</option>
+                      <option value="2">France (FR)</option>
+                      <option value="3">Italy (IT)</option>
+                      <option value="4">Denmark (DK)</option>
+                      <option value="5">Lithuania (LT)</option>
+                    </select>
+                  </div>
+                  <div class="body-form__info">
+                    <label class="body-form__form-label">States</label>
+                    <select class="body-form__form-select" name="form[]">
+                      <option selected="" disabled="" hidden="" value="">Select</option>
+                      <option value="1">Kyiv</option>
+                      <option selected value="2">Doneck</option>
+                      <option value="3">Lviv</option>
+                      <option value="4">Kharkiv</option>
+                      <option value="5">Lutsk</option>
+                    </select>
+                  </div>
+                  <div class="body-form__info">
+                    <label class="body-form__form-label">Zip Code</span></label>
+                    <input class="body-form__form-input" type="text" name="form[]" placeholder="Zip Code" required>
+                  </div>
+                </div>
+                <div class="body-form__line body-form__line--medium">
+                  <div class="body-form__info">
+                    <label class="body-form__form-label">Email</label>
+                    <input class="body-form__form-input" type="email" name="form[]" placeholder="Email Address">
+                  </div>
+                  <div class="body-form__info">
+                    <label class="body-form__form-label">Phone</label>
+                    <input class="body-form__form-input" type="tel" name="form[]" placeholder="Phone number">
+                  </div>
+                </div>
+                <div class="body-form__line body-form__line--margin">
+                  <div class="body-form__checkbox">
+                    <input id="checkbox-item" class="body-form__checkbox-input" type="checkbox" name="form[]">
+                    <label for="checkbox-item" class="body-form__checkbox-label">Ship to a different address</label>
+                  </div>
+                </div>
+                <span class="body-form__decor-line"></span>
+                <h2 class="body-form__title">Additional Info</h2>
+                <div class="body-form__line body-form__line--long">
+                  <div class="body-form__info">
+                    <label class="body-form__form-label">Order Notes <span>(Optional)</span></label>
+                    <textarea class="body-form__form-textarea" placeholder="Notes about your order, e.g. special notes for delivery" name="form[]" id=""></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="body-form__order order">
+                <div class="order__summary">
+                  <h2 class="order__title">Order Summery</h2>
+                  <div class="order__items">
+                    <div class="order__item">
+                      <div class="order__item--line">
+                        <a href="#" class="order__image">
+                          <img src="img/two-green-peppers.webp" alt="Two green peppers resting on a clean white background, showcasing their vibrant color and smooth texture">
+                        </a>
+                        <a href="#" class="order__link">Green Capsicum</a>
+                        <label for="quantity"> x <input value="1" type="number" id="quantity" name="form[]" min="1" max="25">
+                        </label>
+                      </div>
+                      <span>$70.00</span>
+                    </div>
+                    <div class="order__item">
+                      <div class="order__item--line">
+                        <a href="#" class="order__image">
+                          <img src="img/two-red-peppers.webp" alt="Two red bell peppers resting on a clean white background">
+                        </a>
+                        <a href="#" class="order__link">Red Capsicum</a>
+                        <label for="quantity"> x <input value="1" type="number" id="quantity" name="form[]" min="1" max="25">
+                        </label>
+                      </div>
+                      <span>$14.00</span>
+                    </div>
+                  </div>
+                  <div class="order__price">
+                    <div class="order__price-item">
+                      <h3 class="order__price-title">Subtotal:</h3>
+                      <span>$84.00</span>
+                    </div>
+                    <div class="order__price-item">
+                      <h3 class="order__price-title">Shipping:</h3>
+                      <span>Free</span>
+                    </div>
+                    <div class="order__price-item">
+                      <h3 class="order__price-title">Total:</h3>
+                      <span>$84.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="order__payment">
+                  <h2 class="order__title">Payment Method</h2>
+                  <div class="order__payment-rario radio-payment">
+                    <div class="radio-payment__item">
+                      <input id="on delivery" class="radio-payment__item-input" checked name="form[]" type="radio" value="1">
+                      <label class="radio-payment__item-label" for="on delivery">Cash on Delivery</label>
+                    </div>
+                    <div class="radio-payment__item">
+                      <input id="paypal" class="radio-payment__item-input" checked name="form[]" type="radio" value="2">
+                      <label class="radio-payment__item-label" for="paypal">Paypal</label>
+                    </div>
+                    <div class="radio-payment__item">
+                      <input id="amazon-pay" class="radio-payment__item-input" checked name="form[]" type="radio" value="3">
+                      <label class="radio-payment__item-label" for="amazon-pay">Amazon Pay</label>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="order__button">Place Order</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- <section class="practik-section practik">
+        <div class="practik__container--min">
+          <form class="form" method="post" enctype="multipart/form-data">
+            <div class="form__line form__line--margin">
+              <label for="titsiai" class="form__label">Тицяй сюдау</label>
+              <input id="titsiai" class="form__input" type="text" placeholder="тицьнув-пиши">
+            </div>
+            <div class="form__line form__line--margin">
+              <input disabled required type="email" placeholder="Введіть пошту" autocomplete="off" name="form[]" class="form__input">
+            </div>
+            <div class="form__line form__line--margin">
+              <input class="form__input" type="text" placeholder="тицяй">
+            </div>
+            <div class="form__line form__line--margin">
+              <input class="form__input" required type="email" placeholder="Введіть Ваш email" autocomplete="on">
+            </div>
+            <div class="form__line form__line--margin">
+              <input value="Some" type="hidden" name="form[]" class="form__input">
+            </div>
+            <div class="form__line form__line--margin">
+              <input required type="tel" placeholder="Введіть Ваш номер телефону" class="form__input">
+            </div>
+            <div class="form__line form__line--margin">
+              <input required type="password" placeholder="Введіть пароль" autocomplete="off" name="form[]" class="form__input">
+            </div>
+            <div class="form__line form__line--margin">
+              <input required type="number" placeholder="Введіть число" autocomplete="off" name="form[]" class="form__input">
+            </div>
+            <div class="form__line form__line--margin">
+              <label for="titsiai" class="form__label">Виберіть колір</label>
+              <input required type="color" autocomplete="off" name="form[]" class="form__input">
+            </div>
+            <div class="form__line form__line--margin">
+              <input required type="search" placeholder="Введіть запит" autocomplete="off" name="form[]" class="form__input">
+            </div>
+            <div class="form__line form__line--margin">
+              <label for="titsiai" class="form__label">Виберіть дату</label>
+              <input required type="date" autocomplete="off" name="form[]" class="form__input">
+            </div>
+            <div class="form__line form__line--margin">
+              <label for="titsiai" class="form__label">Виберіть</label>
+              <input required type="range" autocomplete="off" value="5" name="form[]" class="form__input">
+            </div>
+            <div class="form__line form__line--margin">
+              <label class="checkbox">
+                <input class="checkbox__input" name="form[]" type="checkbox">
+                <span class="checkbox__lable">Осьо</span>
+              </label>
+              <label class="checkbox">
+                <input class="checkbox__input" name="form[]" type="checkbox">
+                <span class="checkbox__lable">Осьво</span>
+              </label>
+              <label class="checkbox">
+                <input class="checkbox__input" name="form[]" type="checkbox">
+                <span class="checkbox__lable">Осьго</span>
+              </label>
+            </div>
+            <div class="form__line form__line--margin">
+              <label class="options">
+                <input class="options__input" name="form[cat]" type="radio">
+                <span class="options__lable">Мяу</span>
+              </label>
+            </div>
+            <div class="form__line form__line--margin">
+              <label class="options">
+                <input class="options__input" name="form[cat]" type="radio">
+                <span class="options__lable">Мяу</span>
+              </label>
+            </div>
+            <div class="form__line form__line--margin">
+              <label class="options">
+                <input class="options__input" name="form[cat]" type="radio">
+                <span class="options__lable">Мяу</span>
+              </label>
+            </div>
+            <div class="form__line form__line--margin">
+              <label class="options">
+                <input class="options__input" name="form[dog]" type="radio">
+                <span class="options__lable">Гау</span>
+              </label>
+            </div>
+            <div class="form__line form__line--margin">
+              <label class="options">
+                <input class="options__input" name="form[dog]" type="radio">
+                <span class="options__lable">Гау</span>
+              </label>
+            </div>
+            <div class="form__line form__line--margin">
+              <input enctype="multipart/form-data" enctype multiple accept=".jpg, .png" name="form[]" type="file">
+            </div>
+            <div class="form__line form__line--margin">
+              <textarea class="form__textarea" name="form[]"></textarea>
+            </div>
+            <div class="form__line form__line--margin">
+              <select name="form[]">
+                <option value="1">What 0</option>
+                <option value="2">What 1</option>
+                <option selected value="3">What 2</option>
+              </select>
+            </div>
+            <div class="form__line form__line--margin">
+              <button class="form__button" type="button">Звичайна кнопка --button--</button>
+              <button class="form__button" type="reset">Кнопка чистки форми --reset--</button>
+              <button class="form__button" type="submit">Кнопка яка відправляє форму --submit--</button>
+            </div>
+          </form>
+        </div>
+      </section> -->
+    </main>
+    <footer class="footer">
+      <div class="footer__container"> Foot </div>
+    </footer>
+  </div>
+</body>
+
+</html>
