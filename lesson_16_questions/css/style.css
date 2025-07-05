@@ -1,0 +1,229 @@
+body {
+  font-family: Montserrat;
+  color: #000;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  overflow: clip;
+  min-height: 100%;
+}
+.wrapper > main {
+  flex-grow: 1;
+}
+[class*="__container"] {
+  max-width: 1230px;
+  padding-inline: 15px;
+  margin: 0 auto;
+}
+
+/*-------------------------------------------------*/
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(3.6505258789px);
+}
+.header__container {
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 28px;
+  padding-bottom: 25px;
+  gap: 15px;
+  z-index: 3;
+}
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 6px;
+
+  position: relative;
+  z-index: 9;
+}
+.header__logo img {
+  aspect-ratio: 44 / 44;
+}
+.header__logo-name {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+@media (max-width: 888px) {
+  .header__logo-name {
+    display: none;
+  }
+}
+.header__navigation {
+}
+@media (max-width: 767.98px) {
+  .header__navigation {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 100%;
+    z-index: 3;
+    background-color: #dcfac9;
+
+    padding: 10px 15px 30px 15px;
+  }
+  .menu-open .header__navigation {
+    opacity: 1;
+    visibility: visible;
+  }
+  .header__list {
+    flex-direction: column;
+    gap: 15px;
+    flex-grow: 1;
+  }
+  .header__item-link {
+    font-size: 24px;
+  }
+}
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 10px;
+}
+@media (max-width: 938px) {
+  .header__list {
+    row-gap: 15px;
+  }
+}
+.header__item {
+}
+.header__item-link {
+  position: relative;
+  text-transform: uppercase;
+}
+
+@media (any-hover: hover), (pointer: fine) {
+  .header__item-link::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 0.5px;
+    width: 0;
+    background-color: #000;
+
+    transition: width 0.4s, left 0.4s;
+  }
+  .header__item-link:hover::after {
+    left: 0;
+    width: 100%;
+  }
+}
+
+.button__menu {
+  display: flex;
+  padding: 8px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  color: #fff;
+  font-size: 16px;
+
+  border-radius: 999px;
+  background: #f26522;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+
+  transition: background 0.3s;
+
+  position: relative;
+  z-index: 9;
+}
+@media (max-width: 938px) {
+  .button__menu {
+    font-size: 14px;
+  }
+}
+.button__menu::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url(../img/arrow-right.svg);
+}
+@media (any-hover: hover), (pointer: fine) {
+  .button__menu:hover {
+    background: #fe3f3f;
+  }
+}
+.button__burger {
+  display: none;
+}
+@media (max-width: 767.98px) {
+  .button__burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 18px;
+  }
+  .button__burger::before,
+  .button__burger::after,
+  .button__burger span {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #000;
+  }
+  .button__burger::before {
+    top: 0;
+  }
+  .button__burger span {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .button__burger::after {
+    bottom: 0;
+  }
+}
+
+/*-------------------------------------------------*/
+
+.page {
+}
+.page__picture {
+  position: relative;
+}
+.page__picture img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+@media (max-width: 767.98px) {
+  .page__picture {
+    /* display: none; */
+  }
+}
+/*-------------------------------------------------*/
+
+.footer {
+  background-color: #1a1a1a;
+}
+.footer__container {
+  color: beige;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
+  text-align: center;
+}
