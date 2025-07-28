@@ -418,7 +418,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
 
-  transition: text-decoration color 0.4s;
+  transition: text-decoration 0.4s;
 }
 .product__price-card {
   color: #1a1a1a;
@@ -468,11 +468,6 @@ body {
   border-radius: 50%;
   z-index: 2;
   overflow: hidden;
-}
-
-.product__card:hover .product__hover > a {
-  transform: translateY(100% + 16px);
-  opacity: 1;
 }
 .product__hover-action svg {
   width: 20px;
