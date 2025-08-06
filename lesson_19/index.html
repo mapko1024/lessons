@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Armata:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Rem</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <h1 class="header__title">% rem em vw vh vmax vmin svh lvh dvh svw lvw dvw :root</h1>
+      </div>
+    </header>
+    <main class="page">
+      <div class="page__container">
+        <section class="page__procent procent">
+          <div class="procent__block">
+            <div class="procent__text"> padding: 4%; margin: 2%;</div>
+          </div>
+          <h2 class="procent-title"><b>procent</b> title</h2>
+          <div class="procent__test">
+            <div class="procent__block-em">
+              <div class="procent__text-em">Attached to BODY</div>
+            </div>
+            <div class="procent__block-emem">
+              <div class="procent__text-emem">Attached to procent__block-emem</div>
+            </div>
+          </div>
+        </section>
+        <section class="page__min min">
+          <div class="min__logo">
+            <img class="min__logo-image" src="img/arrow-ecobazar.svg" alt="Juk">
+          </div>
+        </section>
+        <section class="page__viewport viewport">
+          <h2 class="viewport__title">Viewport units</h2>
+          <ul class="viewport__items">
+            <li class="viewport__item">VW - relative to width</li>
+            <li class="viewport__item">VH - relative to height</li>
+            <li class="viewport__item">VMAX - larger size</li>
+            <li class="viewport__item">VMIN - smaller size</li>
+            <li class="viewport__item">SVH, LVH, DVH</li>
+            <li class="viewport__item">SVW, LVW, DVW</li>
+          </ul>
+        </section>
+        <section class="page__calc calc">
+          <div class="calc__block"> width: calc(100% - 2.5rem); background-color: aquamarine; </div>
+          <div class="calc__clamp"> font-size: clamp(14px, 5vw, 38px); </div>
+          <div class="calc__minmax"> width: min(400px, 100%); </div>
+        </section>
+        <section class="page__variables variables">
+          <div class="variables__block"> --colorMain: green; --colorMain2: rgb(68, 115, 68); </div>
+          <div class="variables__block-two"> --colorMain: green; --colorMain2: rgb(68, 115, 68); </div>
+        </section>
+        <section class="page__pointer-events pointer-events">
+          <div class="pointer-events"> `pointer-events` — interaction with the object: - <a class="pointer-events__link" href="#">`none`</a> — disables (if, for example, some object overlaps another and does not allow interaction with it, and if we cannot use `z-index`); - <a class="pointer-events__link" href="#">`all`</a> — Enabled (by default) <br><a class="pointer-events__link" href="#">CURSOR</a> </div>
+        </section>
+        <section class="page__inset inset">
+          <div class="inset__block"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatum alias totam necessitatibus temporibus excepturi et facere. Sunt nulla suscipit, debitis nam voluptas ullam accusantium, consequuntur reiciendis voluptatum totam sed. </div>
+          <div class="inset__block-inset"></div>
+        </section>
+        <section class="page__vertical-text vertical-text">
+          <div class="vertical-text"> 2 3 6 5 4 7 8 9 6 3 2 0 1 2 3 6 5 4 7 8 9 6 3 2 5 8 7 4 1 2 5 8 2 3 6 5 4 7 8 9 6 3 2 0 1 2 3 6 5 4 7 8 9 6 3 2 5 8 7 4 1 2 5 8 2 3 6 5 4 7 8 9 6 3 2 0 1 2 3 6 5 4 7 8 9 6 3 2 5 8 7 4 1 2 5 8 2 3 6 5 4 7 8 9 6 3 2 0 1 2 3 6 5 4 7 8 9 6 3 2 5 8 7 4 1 2 5 8 2 3 6 5 4 7 8 9 6 3 2 0 1 2 3 6 5 4 7 8 9 6 3 2 5 8 7 4 1 2 0 9</div>
+        </section>
+        <section class="page__mirror mirror">
+          <div class="mirror__block">
+            <img class="mirror__image" src="img/arrow-ecobazar.svg" alt="Image">
+          </div>
+        </section>
+        <section class="page__clip clip">
+          <ul class="clip__items">
+            <li class="clip__item">
+              <img src="img/corn.webp" alt="corn">
+            </li>
+            <li class="clip__item">
+              <img src="img/eggplant.webp" alt="corn">
+            </li>
+            <li class="clip__item">
+              <img src="img/green-apple.webp" alt="corn">
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container"> Foot </div>
+    </footer>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
